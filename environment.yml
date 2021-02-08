@@ -1,6 +1,5 @@
 name: annotation
 channels:
-  - https://artifactory.corpuls.com/api/conda/mraa-conda
   - defaults
   - conda-forge
   - pyviz
