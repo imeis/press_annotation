@@ -5,9 +5,8 @@ channels:
   - conda-forge
   - pyviz
   - bokeh
-packages:
-- jupyter-panel-proxy
 dependencies:
+  - jupyter-panel-proxy
   - python=3.7.9=h60c2a47_0
   - pip=20.3.3=py37haa95532_0
   - async_generator=1.10=pyhd3eb1b0_0
