@@ -425,3 +425,6 @@ class SelectMission(param.Parameterized):
             pn.Param(self.param, parameters=["mission_id"]),
             self.show_mission,
         )
+
+selector = SelectMission()
+server = pn.serve(selector.render)
