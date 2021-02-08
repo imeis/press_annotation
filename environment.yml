@@ -9,6 +9,7 @@ dependencies:
   - python=3.7*
   - pip=20.3*
   - bokeh=2.2.3
+  - holoviews
   - datashader
   - numpy=1.19.2
   - pandas=1.2.1
